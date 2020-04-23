@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-paraply-base",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Paraply-Project/paraply-eslint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Paraply-Project/paraply-eslint/issues"
+  },
+  "homepage": "https://github.com/Paraply-Project/paraply-eslint",
+  "devDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint-find-rules": "^3.4.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "dependencies": {}
+}
+
