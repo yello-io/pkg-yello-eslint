@@ -280,11 +280,7 @@ module.exports = {
     'no-unmodified-loop-condition': 'off',
 
     // disallow usage of expressions in statement position
-    'no-unused-expressions': ['error', {
-      allowShortCircuit: false,
-      allowTernary: false,
-      allowTaggedTemplates: false,
-    }],
+    'no-unused-expressions': 0, // ['error', { allowShortCircuit: false, allowTernary: false, allowTaggedTemplates: false, }],
 
     // disallow unused labels
     // https://eslint.org/docs/rules/no-unused-labels

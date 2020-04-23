@@ -11,7 +11,7 @@ module.exports = {
     'array-element-newline': ['off', { multiline: true, minItems: 3 }],
 
     // enforce spacing inside array brackets
-    'array-bracket-spacing': ['error', 'never'],
+    'array-bracket-spacing': ["error", "always"], // ['error', 'never']
 
     // enforce spacing inside single-line blocks
     // https://eslint.org/docs/rules/block-spacing
@@ -122,30 +122,7 @@ module.exports = {
 
     // this option sets a specific tab width for your code
     // https://eslint.org/docs/rules/indent
-    indent: ['error', 2, {
-      SwitchCase: 1,
-      VariableDeclarator: 1,
-      outerIIFEBody: 1,
-      // MemberExpression: null,
-      FunctionDeclaration: {
-        parameters: 1,
-        body: 1
-      },
-      FunctionExpression: {
-        parameters: 1,
-        body: 1
-      },
-      CallExpression: {
-        arguments: 1
-      },
-      ArrayExpression: 1,
-      ObjectExpression: 1,
-      ImportDeclaration: 1,
-      flatTernaryExpressions: false,
-      // list derived from https://github.com/benjamn/ast-types/blob/HEAD/def/jsx.js
-      ignoredNodes: ['JSXElement', 'JSXElement > *', 'JSXAttribute', 'JSXIdentifier', 'JSXNamespacedName', 'JSXMemberExpression', 'JSXSpreadAttribute', 'JSXExpressionContainer', 'JSXOpeningElement', 'JSXClosingElement', 'JSXFragment', 'JSXOpeningFragment', 'JSXClosingFragment', 'JSXText', 'JSXEmptyExpression', 'JSXSpreadChild'],
-      ignoreComments: false
-    }],
+    indent: ["error", "tab", { "SwitchCase": 1 }], // ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1, // MemberExpression: null, FunctionDeclaration: { parameters: 1, body: 1 }, FunctionExpression: { parameters: 1, body: 1 }, CallExpression: { arguments: 1 }, ArrayExpression: 1, ObjectExpression: 1, ImportDeclaration: 1, flatTernaryExpressions: false, // list derived from https://github.com/benjamn/ast-types/blob/HEAD/def/jsx.js ignoredNodes: ['JSXElement', 'JSXElement > *', 'JSXAttribute', 'JSXIdentifier', 'JSXNamespacedName', 'JSXMemberExpression', 'JSXSpreadAttribute', 'JSXExpressionContainer', 'JSXOpeningElement', 'JSXClosingElement', 'JSXFragment', 'JSXOpeningFragment', 'JSXClosingFragment', 'JSXText', 'JSXEmptyExpression', 'JSXSpreadChild'], ignoreComments: false }],
 
     // specify whether double or single quotes should be used in JSX attributes
     // https://eslint.org/docs/rules/jsx-quotes
@@ -176,7 +153,7 @@ module.exports = {
 
     // disallow mixed 'LF' and 'CRLF' as linebreaks
     // https://eslint.org/docs/rules/linebreak-style
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': 0, // ['error', 'unix']
 
     // require or disallow an empty line between class members
     // https://eslint.org/docs/rules/lines-between-class-members
@@ -355,7 +332,7 @@ module.exports = {
     'no-spaced-func': 'error',
 
     // disallow tab characters entirely
-    'no-tabs': 'error',
+    'no-tabs': 0, //'error'
 
     // disallow the use of ternary operators
     'no-ternary': 'off',
@@ -419,16 +396,10 @@ module.exports = {
 
     // Requires operator at the beginning of the line in multiline statements
     // https://eslint.org/docs/rules/operator-linebreak
-    'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
+    'operator-linebreak': ["error", "after"], // ['error', 'before', { overrides: { '=': 'none' } }]
 
     // disallow padding within blocks
-    'padded-blocks': ['error', {
-      blocks: 'never',
-      classes: 'never',
-      switches: 'never',
-    }, {
-      allowSingleLineBlocks: true,
-    }],
+    'padded-blocks': ["error", "always"], // ['error', { blocks: 'never', classes: 'never', switches: 'never', }, { allowSingleLineBlocks: true, }]
 
     // Require or disallow padding lines between statements
     // https://eslint.org/docs/rules/padding-line-between-statements

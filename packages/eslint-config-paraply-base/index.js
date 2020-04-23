@@ -14,4 +14,12 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {},
+  settings: {
+    "import/resolver": {
+			typescript: {},
+			node: {
+				extensions: [".ts", ".tsx", ".js", ".jsx"]
+			}
+		}
+  }
 };

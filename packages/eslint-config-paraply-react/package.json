@@ -14,28 +14,24 @@
     "url": "https://github.com/Paraply-Project/paraply-eslint/issues"
   },
   "homepage": "https://github.com/Paraply-Project/paraply-eslint",
-  "dependencies": {
-    "eslint-config-paraply-base": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^6.8.0",
     "eslint-find-rules": "^3.4.0",
-    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.3.0",
-    "react": ">= 16.8.0"
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "react": "^16.13.1"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-plugin-import": "^2.20.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "eslint-plugin-react-hooks": "^3.0.0"
   },
   "engines": {
-    "node": ">= 6"
+    "node": ">= 12"
   }
 }
-
-
