@@ -1,4 +1,9 @@
 module.exports = {
+	plugins: [
+		"react",
+		"react-hooks",
+		"jsx-a11y"
+	],
   extends: [
     './rules/base',
     './rules/unsorted',
