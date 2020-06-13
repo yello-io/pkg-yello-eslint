@@ -4,6 +4,6 @@ module.exports = {
 		"plugin:react/recommended",
 		"plugin:react-hooks/recommended",
 		"plugin:jsx-a11y/recommended",
-		"eslint-config-paraply-base"
+		"eslint-config-yello-base"
 	]
 };
