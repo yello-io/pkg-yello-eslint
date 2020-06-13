@@ -1,12 +1,26 @@
 {
 	"name": "eslint-config-yello-base",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "",
 	"keywords": [],
 	"author": "",
 	"license": "",
 	"engines": {
 		"node": ">= 13"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:yello-io/yello-eslint.git"
+	},
+	"scripts": {
+		"postpublish": "git push && git push --tags",
+		"postversion": "npm publish",
+		"patch": "npm version patch",
+		"minor": "npm version minor",
+		"major": "npm version major"
 	},
 	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "^3.0.0",
