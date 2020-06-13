@@ -1,6 +1,6 @@
 {
 	"name": "@yello-io/eslint-config-yello-base",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "",
 	"keywords": [],
 	"author": "",
@@ -16,7 +16,6 @@
 		"url": "git@github.com:yello-io/yello-eslint.git"
 	},
 	"scripts": {
-		"postpublish": "git push && git push --tags",
 		"postversion": "npm publish",
 		"patch": "npm version patch",
 		"minor": "npm version minor",
