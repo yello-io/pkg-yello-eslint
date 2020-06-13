@@ -12,7 +12,7 @@ module.exports = {
 		"no-unused-expressions": 0,
 		"nonblock-statement-body-position": ["error", "beside", { "overrides":  { "if": "any" } }],
 		"curly": ["error", "multi-or-nest", "consistent"],
-		"object-curly-spacing": 2,
+		"object-curly-spacing": ["error", "always"],
 		"no-bitwise": ["error", { "allow": ["~"] }],
 	}
 };
