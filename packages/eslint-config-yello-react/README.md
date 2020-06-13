@@ -1,6 +1,6 @@
 
 ## Installation
-Run `npx install-peerdeps --dev eslint-config-yello-react` in your project.
+Run `npx install-peerdeps --dev @yello-io/eslint-config-yello-react` in your project.
 
 
 ## Adding a new file to rules directory

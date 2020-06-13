@@ -1,6 +1,6 @@
 
 ## Installation
-Run `npx install-peerdeps --dev eslint-config-yello-base` in your project.
+Run `npx install-peerdeps --dev @yello-io/eslint-config-yello-base` in your project.
 
 
 ## Adding a new file to rules directory
