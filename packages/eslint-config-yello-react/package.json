@@ -1,6 +1,6 @@
 {
 	"name": "@yello-io/eslint-config-yello-react",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "",
 	"keywords": [],
 	"author": "",
@@ -16,35 +16,34 @@
 		"url": "git@github.com:yello-io/yello-eslint.git"
 	},
 	"scripts": {
-		"postpublish": "git push && git push --tags",
 		"postversion": "npm publish",
 		"patch": "npm version patch",
 		"minor": "npm version minor",
 		"major": "npm version major"
 	},
 	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": "^3.0.0",
-		"@typescript-eslint/parser": "^3.0.0",
-		"@yello-io/eslint-config-yello-base": "^0.0.1",
-		"eslint": "^7.1.0",
+		"@typescript-eslint/eslint-plugin": "^3.2.0",
+		"@typescript-eslint/parser": "^3.2.0",
+		"@yello-io/eslint-config-yello-base": "0.0.3",
+		"eslint": "^7.2.0",
 		"eslint-import-resolver-typescript": "^2.0.0",
-		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-import": "^2.21.2",
 		"eslint-plugin-jsx-a11y": "^6.2.3",
 		"eslint-plugin-react": "^7.20.0",
-		"eslint-plugin-react-hooks": "^4.0.2",
-		"typescript": "^3.9.3"
+		"eslint-plugin-react-hooks": "^4.0.4",
+		"typescript": "^3.9.5"
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^3.0.0",
-		"@typescript-eslint/parser": "^3.0.0",
-		"@yello-io/eslint-config-yello-base": "^0.0.1",
-		"eslint": "^7.1.0",
+		"@typescript-eslint/eslint-plugin": "^3.2.0",
+		"@typescript-eslint/parser": "^3.2.0",
+		"@yello-io/eslint-config-yello-base": "0.0.3",
+		"eslint": "^7.2.0",
 		"eslint-import-resolver-typescript": "^2.0.0",
-		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-import": "^2.21.2",
 		"eslint-plugin-jsx-a11y": "^6.2.3",
 		"eslint-plugin-react": "^7.20.0",
-		"eslint-plugin-react-hooks": "^4.0.2",
-		"typescript": "^3.9.3"
+		"eslint-plugin-react-hooks": "^4.0.4",
+		"typescript": "^3.9.5"
 	}
 }
