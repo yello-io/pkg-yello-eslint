@@ -9,7 +9,9 @@ module.exports = {
 			  "devDependencies": [
 				".storybook/**",
 				"**/*.stories.tsx",
-				"**/*.stories.mdx"
+				"**/*.stories.mdx",
+				"**/stories.tsx",
+				"**/stories.mdx"
 				]
 			}
 		],
