@@ -4,6 +4,7 @@ module.exports = {
 		"./rules/base",
 		"./rules/unsorted",
 		"./rules/import",
+		"./rules/typescript"
 	].map(require.resolve),
 	ignorePatterns: ["dist", "build"],
 	env: {
