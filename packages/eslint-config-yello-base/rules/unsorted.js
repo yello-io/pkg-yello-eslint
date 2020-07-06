@@ -11,7 +11,7 @@ module.exports = {
 		"no-prototype-builtins": 0,
 		"no-unused-expressions": 0,
 		"nonblock-statement-body-position": ["error", "beside", { "overrides":  { "if": "any" } }],
-		"curly": ["error", "multi-or-nest", "consistent"],
+		"curly": ["error", "multi-line", "consistent"],
 		"object-curly-spacing": ["error", "always"],
 		"no-bitwise": ["error", { "allow": ["~"] }],
 	}

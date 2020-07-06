@@ -11,7 +11,8 @@ module.exports = {
 				"**/*.stories.tsx",
 				"**/*.stories.mdx",
 				"**/stories.tsx",
-				"**/stories.mdx"
+				"**/stories.mdx",
+				"**/rollup.config.js"
 				]
 			}
 		],
