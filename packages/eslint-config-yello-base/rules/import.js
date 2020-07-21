@@ -59,6 +59,11 @@ module.exports = {
 					"position": "after"
 				},
 				{
+					"pattern": "~utilities/**",
+					"group": "internal",
+					"position": "after"
+				},
+				{
 					"pattern": "~utils/**",
 					"group": "internal",
 					"position": "after"
