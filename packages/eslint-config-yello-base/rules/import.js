@@ -49,6 +49,11 @@ module.exports = {
 					"position": "after"
 				},
 				{
+					"pattern": "~props/**",
+					"group": "internal",
+					"position": "after"
+				},
+				{
 					"pattern": "~themes/**",
 					"group": "internal",
 					"position": "after"
