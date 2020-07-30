@@ -14,5 +14,6 @@ module.exports = {
 		"curly": ["error", "multi-line", "consistent"],
 		"object-curly-spacing": ["error", "always"],
 		"no-bitwise": ["error", { "allow": ["~"] }],
+		"semi": ["error", "always"],
 	}
 };
