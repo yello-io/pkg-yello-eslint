@@ -37,7 +37,7 @@
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^3.7.1",
 		"@typescript-eslint/parser": "^3.7.1",
-		"@yello-io/eslint-config-yello-base": "0.0.17",
+		"@yello-io/eslint-config-yello-base": "0.0.18",
 		"eslint": "^7.5.0",
 		"eslint-import-resolver-typescript": "^2.2.0",
 		"eslint-plugin-import": "^2.22.0",
