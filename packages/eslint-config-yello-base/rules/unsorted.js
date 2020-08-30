@@ -15,6 +15,7 @@ module.exports = {
 		"object-curly-spacing": ["error", "always"],
 		"no-bitwise": ["error", { "allow": ["~"] }],
 		"semi": ["error", "always"],
-		"no-multi-spaces": ["error", { ignoreEOLComments: true }]
+		"no-multi-spaces": ["error", { ignoreEOLComments: true }],
+		"max-len": ["error", { "code": 120, "ignoreUrls": true }]
 	}
 };
