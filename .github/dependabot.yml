@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/packages/eslint-config-yello-react"
+  schedule:
+    interval: weekly
+    time: "15:00"
+    timezone: Europe/Oslo
+  open-pull-requests-limit: 10
+  reviewers:
+  - marjorg
+- package-ecosystem: npm
+  directory: "/packages/eslint-config-yello-base"
+  schedule:
+    interval: weekly
+    time: "15:00"
+    timezone: Europe/Oslo
+  open-pull-requests-limit: 10
+  reviewers:
+  - marjorg
