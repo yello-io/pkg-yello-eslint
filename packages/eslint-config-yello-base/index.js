@@ -1,24 +1,22 @@
 
 module.exports = {
 	extends: [
-		"./rules/base",
-		"./rules/unsorted",
-		"./rules/import",
-		"./rules/typescript"
+		'./rules/base',
+		'./rules/unsorted',
+		'./rules/import',
+		'./rules/typescript'
 	].map(require.resolve),
-	ignorePatterns: ["dist", "build"],
+	ignorePatterns: [ 'dist', 'build' ],
 	env: {
 		browser: true,
 		es6: true,
 		node: true
 	},
-	parser: "@typescript-eslint/parser",
+	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaVersion: 2018,
 		sourceType: 'module',
 	},
-	plugins: [
-		"@typescript-eslint"
-	],
+	plugins: [ '@typescript-eslint' ],
 	rules: {}
 };
