@@ -2,6 +2,12 @@
 module.exports = {
 	plugins: ["import"],
 	rules: {
+		"sort-imports": ["error", {
+			"ignoreCase": true,
+			"ignoreDeclarationSort": true, // This is handled by import/order instead
+			"ignoreMemberSort": false,
+			"allowSeparatedGroups": true
+		}],
 		"import/newline-after-import": ["error", { "count": 2 }],
 		"import/no-extraneous-dependencies": [
 			"error",
