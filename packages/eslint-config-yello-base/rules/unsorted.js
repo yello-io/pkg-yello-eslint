@@ -16,6 +16,7 @@ module.exports = {
 		'no-bitwise': ['error', { 'allow': ['~'] }],
 		'semi': ['error', 'always'],
 		'no-multi-spaces': ['error', { ignoreEOLComments: true }],
-		'max-len': ['error', { 'code': 120, 'ignoreUrls': true }]
+		'max-len': ['error', { 'code': 120, 'ignoreUrls': true }],
+		'quotes': ['error', 'single', { "avoidEscape": true, "allowTemplateLiterals": true }]
 	}
 };
