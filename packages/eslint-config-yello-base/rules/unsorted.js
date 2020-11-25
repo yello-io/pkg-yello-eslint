@@ -17,6 +17,7 @@ module.exports = {
 		'semi': ['error', 'always'],
 		'no-multi-spaces': ['error', { ignoreEOLComments: true }],
 		'max-len': ['error', { 'code': 120, 'ignoreUrls': true }],
-		'quotes': ['error', 'single', { "avoidEscape": true, "allowTemplateLiterals": true }]
+		'quotes': ['error', 'single', { "avoidEscape": true, "allowTemplateLiterals": true }],
+		"no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }]
 	}
 };
