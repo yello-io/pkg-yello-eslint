@@ -9,7 +9,7 @@ module.exports = {
 			'allowSeparatedGroups': true
 		}],
 		'import/newline-after-import': ['error', { 'count': 2 }],
-		"import/no-unused-modules": ['warning', { 'missingExports': true, 'unusedExports': true }],
+		"import/no-unused-modules": [1, { 'missingExports': true, 'unusedExports': true }],
 		'import/no-extraneous-dependencies': [
 			'error',
 			{
