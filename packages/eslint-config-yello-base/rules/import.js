@@ -58,6 +58,11 @@ module.exports = {
 					'group': 'internal',
 					'position': 'after'
 				},
+				{
+					'pattern': '~contexts/**',
+					'group': 'internal',
+					'position': 'after'
+				},
 
 				{
 					'pattern': '~hooks/**',
@@ -130,6 +135,12 @@ module.exports = {
 					'group': 'internal',
 					'position': 'after'
 				},
+
+				{
+					'pattern': '~schemas/**',
+					'group': 'internal',
+					'position': 'after'
+				}
 
 			]
 		}]
