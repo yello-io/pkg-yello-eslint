@@ -15,6 +15,19 @@ module.exports = {
 		// 		"prefix": ["is", "should", "has", "can", "did", "will"]
 		// 	}
 		// ]
+		"@typescript-eslint/member-delimiter-style": [
+			"error",
+			{
+				"multiline": {
+					"delimiter": "semi",
+					"requireLast": true
+				},
+				"singleline": {
+					"delimiter": "semi",
+					"requireLast": false
+				}
+			}
+		]
 	},
 	overrides: [
 		{

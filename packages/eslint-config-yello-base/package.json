@@ -4,7 +4,7 @@
 	"description": "",
 	"keywords": [],
 	"author": "Yello AS",
-	"license": "",
+	"license": "MIT",
 	"engines": {
 		"node": ">= 16"
 	},
@@ -13,13 +13,8 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:yello-io/pkg-yello-eslint.git"
-	},
-	"scripts": {
-		"postversion": "npm publish",
-		"patch": "npm version patch",
-		"minor": "npm version minor",
-		"major": "npm version major"
+		"url": "git@github.com:yello-io/pkg-yello-eslint.git",
+		"directory": "/packages/eslint-config-yello-base"
 	},
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^4.24.0",
