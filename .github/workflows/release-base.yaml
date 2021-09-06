@@ -23,9 +23,6 @@ jobs:
       uses: actions/checkout@v2
       with:
         token: ${{ secrets.GH_PACKAGE_WRITE }}
-      run: |
-        git config user.email "action@github.com"
-        git config user.name "GitHub Action"
 
     - name: Configure NodeJS
       uses: actions/setup-node@v2
