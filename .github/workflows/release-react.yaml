@@ -28,6 +28,7 @@ jobs:
       run: |
         git config user.email "action@github.com"
         git config user.name "GitHub Action"
+        echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PACKAGE_WRITE }}" >> .npmrc
 
     - name: Configure NodeJS
       uses: actions/setup-node@v2
@@ -54,6 +55,6 @@ jobs:
     - name: Push changes
       run: |
         git pull
-        git add .
+        git add package.json package-lock.json
         git commit -m "Release @yello-io/eslint-config-yello-react"
         git push --follow-tags
