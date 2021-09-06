@@ -14,7 +14,7 @@ defaults:
 
 jobs:
   release:
-    name: Check if release and version type
+    name: Release
     runs-on: ubuntu-latest
 
     steps:
