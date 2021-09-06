@@ -3,8 +3,8 @@
 	"version": "2.0.13",
 	"description": "",
 	"keywords": [],
-	"author": "",
-	"license": "",
+	"author": "Yello AS",
+	"license": "MIT",
 	"engines": {
 		"node": ">= 16"
 	},
@@ -13,16 +13,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:yello-io/pkg-yello-eslint.git"
-	},
-	"scripts": {
-		"postversion": "npm publish",
-		"patch": "npm version patch",
-		"minor": "npm version minor",
-		"major": "npm version major"
+		"url": "git@github.com:yello-io/pkg-yello-eslint.git",
+		"directory": "/packages/eslint-config-yello-react"
 	},
 	"dependencies": {
-		"@yello-io/eslint-config-yello-base": "^1.0.19",
+		"@yello-io/eslint-config-yello-base": "latest",
 		"eslint-plugin-jsx-a11y": "^6.4.1",
 		"eslint-plugin-react": "^7.23.2",
 		"eslint-plugin-react-hooks": "^4.2.0"

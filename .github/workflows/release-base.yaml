@@ -1,0 +1,59 @@
+name: Release @yello-io/eslint-config-yello-base
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag. One of `patch, minor, major`'
+        required: true
+        default: 'patch'
+
+defaults:
+  run:
+    working-directory: /packages/eslint-config-yello-base
+
+jobs:
+  release:
+    name: Check if release and version type
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GH_PACKAGE_WRITE }}
+
+    - name: Configure Git
+      run: |
+        git config user.email "action@github.com"
+        git config user.name "GitHub Action"
+
+    - name: Configure NodeJS
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Configure cache
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    - name: Tag build
+      run: npm version ${{ github.event.inputs.version }}
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Publish package
+      run: npm publish
+
+    - name: Push changes
+      run: |
+        git pull
+        git add .
+        git commit -m "Release @yello-io/eslint-config-yello-base"
+        git push --follow-tags
