@@ -36,112 +36,28 @@ module.exports = {
 			],
 			'pathGroups': [
 
-				{
-					'pattern': '~root/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~apps/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~components/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~context/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-				{
-					'pattern': '~contexts/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~hooks/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~props/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~themes/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~utilities/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~utils/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~db/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~pages/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~api/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~types/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~assets/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~data/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~microservices/**',
-					'group': 'internal',
-					'position': 'after'
-				},
-
-				{
-					'pattern': '~schemas/**',
-					'group': 'internal',
-					'position': 'after'
-				}
+				{ 'pattern': '~api/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~apps/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~assets/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~components/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~context/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~contexts/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~data/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~db/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~hooks/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~microservices/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~models/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~pages/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~props/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~public/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~root/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~schemas/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~services/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~styles/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~themes/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~types/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~utilities/**', 'group': 'internal', 'position': 'after' },
+				{ 'pattern': '~utils/**', 'group': 'internal', 'position': 'after' },
 
 			]
 		}]

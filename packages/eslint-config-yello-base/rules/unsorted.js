@@ -19,6 +19,7 @@ module.exports = {
 		'max-len': ['error', { 'code': 120, 'ignoreUrls': true }],
 		'quotes': ['error', 'single', { 'avoidEscape': true, 'allowTemplateLiterals': true }],
 		'no-unused-vars': 'off',
-		'@typescript-eslint/no-unused-vars': ['warn', { 'argsIgnorePattern': '^_' }]
+		'@typescript-eslint/no-unused-vars': ['warn', { 'argsIgnorePattern': '^_' }],
+		"eol-last": ["error", "always"]
 	}
 };
