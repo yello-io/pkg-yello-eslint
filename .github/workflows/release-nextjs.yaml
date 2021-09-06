@@ -23,8 +23,6 @@ jobs:
       uses: actions/checkout@v2
       with:
         token: ${{ secrets.GH_PACKAGE_WRITE }}
-
-    - name: Configure Git
       run: |
         git config user.email "action@github.com"
         git config user.name "GitHub Action"
