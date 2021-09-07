@@ -9,6 +9,10 @@ module.exports = {
 		'react/self-closing-comp': ['error', {
 			'component': true,
 			'html': true
+		}],
+		'jsx-a11y/anchor-is-valid': [ 'error', {
+			'components': [ 'Link' ],
+			'aspects': [ 'invalidHref', 'preferButton' ]
 		}]
 	}
 };
