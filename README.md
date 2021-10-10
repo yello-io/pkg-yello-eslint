@@ -26,7 +26,7 @@
 This config is used inn all other configs. It is also perfect for your TypeScript projects, such as NodeJS servers and scripts. Does not support things such as JSX or HTML.
 
 ## eslint-config-yello-react
-This config extends `eslint-config-yello-base` and is great for your TypeScript React prjects.
+This package extends `eslint-config-yello-base` and is great for your TypeScript React projects.
 
 ## eslint-config-yello-nextjs
 This config extends `eslint-config-yello-base` and `eslint-config-yello-react`. It also includes `@next/eslint-plugin-next` and is perfect to use with all NextJS project.
