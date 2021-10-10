@@ -1,11 +1,2 @@
 
-## Installation
-Run `npm i -D @yello-io/eslint-config-yello-base` in your project.
-
-You need to add a `.eslintrc` file looking like this:
-
-```JSON
-{
-	"extends": "@yello-io/eslint-config-yello-base"
-}
-```
+## Hey there! For instructions on how to use this, go to the [main README](https://github.com/yello-io/pkg-yello-eslint/blob/main/README.md).
