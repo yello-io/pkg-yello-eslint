@@ -23,7 +23,7 @@
 # Packages
 
 ## eslint-config-yello-base
-This config is used inn all other configs. It is also perfect for your TypeScript projects, such as NodeJS servers and scripts. Does not support things such as JSX or HTML.
+This package is used inn all the other config packages. It is also perfect for TypeScript projects. Does not support things such as JSX or HTML.
 
 ## eslint-config-yello-react
 This config extends `eslint-config-yello-base` and is great for your TypeScript React prjects.
