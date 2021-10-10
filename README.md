@@ -12,7 +12,7 @@
 	//npm.pkg.github.com/:_authToken=TOKEN
 	```
 2. Replace `TOKEN` with a GitHub token you can get from one of the Yello members.
-3. Install the config you want to use, read more about them below. Then  a `.eslintrc`:
+3. Install the configuration package you want to use (read more about them below). Then add a `.eslintrc`-file with the following contents:
 	```JSON
 	{
 		"extends": "PACKAGE_NAME"
