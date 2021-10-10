@@ -20,6 +20,7 @@ module.exports = {
 		'quotes': ['error', 'single', { 'avoidEscape': true, 'allowTemplateLiterals': true }],
 		'no-unused-vars': 'off',
 		'@typescript-eslint/no-unused-vars': ['warn', { 'argsIgnorePattern': '^_' }],
-		"eol-last": ["error", "always"]
+		'eol-last': ['error', 'always'],
+		'no-multiple-empty-lines': ['error', { 'max': 2 }]
 	}
 };
