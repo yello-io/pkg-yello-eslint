@@ -29,4 +29,4 @@ This config is used inn all other configs. It is also perfect for your TypeScrip
 This config extends `eslint-config-yello-base` and is great for your TypeScript React prjects.
 
 ## eslint-config-yello-nextjs
-This config extends `eslint-config-yello-base` and `eslint-config-yello-react`. It also includes `@next/eslint-plugin-next` and is perfect to use with all NextJS project.
+This package extends `eslint-config-yello-base` and `eslint-config-yello-react`. It also includes `@next/eslint-plugin-next` and is perfect to use with all NextJS projects.
