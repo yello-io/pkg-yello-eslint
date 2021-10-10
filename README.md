@@ -1,13 +1,32 @@
-# Yello ESLint
 
-To include this in your project, create a `.npmrc`-file with the following content:
-```
-@yello-io:registry=https://npm.pkg.github.com/yello-io
-```
+- [Installation](#installation)
+- [Packages](#packages)
+	- [eslint-config-yello-base](#eslint-config-yello-base)
+	- [eslint-config-yello-react](#eslint-config-yello-react)
+	- [eslint-config-yello-nextjs](#eslint-config-yello-nextjs)
 
-### Installation
-[Base](https://github.com/yello-io/yello-eslint/tree/master/packages/eslint-config-yello-base)
+# Installation
+1. To use these packages you need to add the following to `.npmrc`:
+	```
+	@yello-io:registry=https://npm.pkg.github.com/yello-io
+	//npm.pkg.github.com/:_authToken=TOKEN
+	```
+2. Replace `TOKEN` with a GitHub token you can get from one of the Yello members.
+3. Install the config you want to use, read more about them below. Then  a `.eslintrc`:
+	```JSON
+	{
+		"extends": "PACKAGE_NAME"
+	}
+	```
+4. Done :)
 
-[React](https://github.com/yello-io/yello-eslint/tree/master/packages/eslint-config-yello-react)
+# Packages
 
-[Nextjs](https://github.com/yello-io/yello-eslint/tree/master/packages/eslint-config-yello-nextjs)
+## eslint-config-yello-base
+This config is used inn all other configs. It is also perfect for your TypeScript projects, such as NodeJS servers and scripts. Does not support things such as JSX or HTML.
+
+## eslint-config-yello-react
+This config extends `eslint-config-yello-base` and is great for your TypeScript React prjects.
+
+## eslint-config-yello-nextjs
+This config extends `eslint-config-yello-base` and `eslint-config-yello-react`. It also includes `@next/eslint-plugin-next` and is perfect to use with all NextJS project.
