@@ -5,26 +5,26 @@ module.exports = {
 		// Needs to be disabled for non-TS files
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md#enforce-that-boolean-variables-are-prefixed-with-an-allowed-verb
-		// "@typescript-eslint/naming-convention": [
-		// 	"error",
+		// '@typescript-eslint/naming-convention': [
+		// 	'error',
 		// 	{
 		// 		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md#individual-selectors
-		// 		"selector": ["variable", "function"],
-		// 		"types": ["boolean"],
-		// 		"format": ["PascalCase"],
-		// 		"prefix": ["is", "should", "has", "can", "did", "will"]
+		// 		'selector': ['variable', 'function'],
+		// 		'types': ['boolean'],
+		// 		'format': ['PascalCase'],
+		// 		'prefix': ['is', 'should', 'has', 'can', 'did', 'will']
 		// 	}
 		// ]
-		"@typescript-eslint/member-delimiter-style": [
-			"error",
+		'@typescript-eslint/member-delimiter-style': [
+			'error',
 			{
-				"multiline": {
-					"delimiter": "semi",
-					"requireLast": true
+				'multiline': {
+					'delimiter': 'semi',
+					'requireLast': true
 				},
-				"singleline": {
-					"delimiter": "semi",
-					"requireLast": false
+				'singleline': {
+					'delimiter': 'comma',
+					'requireLast': false
 				}
 			}
 		]
