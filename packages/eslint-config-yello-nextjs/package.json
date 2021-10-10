@@ -18,6 +18,6 @@
 	},
 	"dependencies": {
 		"@next/eslint-plugin-next": "^11.1.2",
-		"@yello-io/eslint-config-yello-react": "^2.0.17"
+		"@yello-io/eslint-config-yello-react": "^2.0.19"
 	}
 }
