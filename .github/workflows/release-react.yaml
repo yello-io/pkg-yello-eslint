@@ -4,9 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version tag. One of `patch, minor, major`'
+        type: choice
+        description: 'Version type'
+        options:
+        - patch
+        - minor
+        - major
         required: true
-        default: 'patch'
 
 defaults:
   run:
