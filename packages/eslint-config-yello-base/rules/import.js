@@ -1,4 +1,3 @@
-
 const pathGroupsDefaults = { 'group': 'internal', 'position': 'after' }
 
 module.exports = {
@@ -39,13 +38,12 @@ module.exports = {
 			'pathGroups': [
 
 				{ 'pattern': '~api/**', ...pathGroupsDefaults },
-				{ 'pattern': '~apps/**', ...pathGroupsDefaults },
 				{ 'pattern': '~assets/**', ...pathGroupsDefaults },
 				{ 'pattern': '~components/**', ...pathGroupsDefaults },
-				{ 'pattern': '~context/**', ...pathGroupsDefaults },
+				{ 'pattern': '~constants/**', ...pathGroupsDefaults },
 				{ 'pattern': '~contexts/**', ...pathGroupsDefaults },
 				{ 'pattern': '~data/**', ...pathGroupsDefaults },
-				{ 'pattern': '~db/**', ...pathGroupsDefaults },
+				{ 'pattern': '~database/**', ...pathGroupsDefaults },
 				{ 'pattern': '~hooks/**', ...pathGroupsDefaults },
 				{ 'pattern': '~microservices/**', ...pathGroupsDefaults },
 				{ 'pattern': '~models/**', ...pathGroupsDefaults },
@@ -59,7 +57,7 @@ module.exports = {
 				{ 'pattern': '~themes/**', ...pathGroupsDefaults },
 				{ 'pattern': '~types/**', ...pathGroupsDefaults },
 				{ 'pattern': '~utilities/**', ...pathGroupsDefaults },
-				{ 'pattern': '~utils/**', ...pathGroupsDefaults }
+				{ 'pattern': '~utils/**', ...pathGroupsDefaults } //! To be removed
 
 			]
 		}]
