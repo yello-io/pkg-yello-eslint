@@ -16,13 +16,11 @@ module.exports = {
 			{
 				'devDependencies': [
 					'.storybook/**',
-					'**/*.stories.tsx',
-					'**/*.stories.mdx',
-					'**/stories.tsx',
-					'**/stories.mdx',
-					'**/rollup.config.js',
-					"**/*.test.js",
-					"**/*.spec.js"
+					'**/*.stories.*',
+					'**/stories.*',
+					'**/rollup.config.*',
+					'**/*.test.*',
+					'**/*.spec.*'
 				]
 			}
 		],
