@@ -14,13 +14,15 @@ module.exports = {
 		'import/no-extraneous-dependencies': [
 			'error',
 			{
-			  'devDependencies': [
-				'.storybook/**',
-				'**/*.stories.tsx',
-				'**/*.stories.mdx',
-				'**/stories.tsx',
-				'**/stories.mdx',
-				'**/rollup.config.js'
+				'devDependencies': [
+					'.storybook/**',
+					'**/*.stories.tsx',
+					'**/*.stories.mdx',
+					'**/stories.tsx',
+					'**/stories.mdx',
+					'**/rollup.config.js',
+					"**/*.test.js",
+					"**/*.spec.js"
 				]
 			}
 		],
