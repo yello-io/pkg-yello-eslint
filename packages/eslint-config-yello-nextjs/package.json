@@ -17,7 +17,7 @@
 		"directory": "/packages/eslint-config-yello-nextjs"
 	},
 	"dependencies": {
-		"@next/eslint-plugin-next": "^12.0.4",
-		"@yello-io/eslint-config-yello-react": "^2.0.20"
+		"@next/eslint-plugin-next": "^12.0.7",
+		"@yello-io/eslint-config-yello-react": "^2.0.21"
 	}
 }
