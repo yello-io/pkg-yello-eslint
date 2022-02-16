@@ -24,6 +24,6 @@ module.exports = {
 		'@typescript-eslint/no-unused-vars': ['warn', { 'argsIgnorePattern': '^_' }],
 		'eol-last': ['error', 'always'],
 		'no-multiple-empty-lines': ['error', { 'max': 2 }],
-		'space-after-keywords': ['error', 'always']
+		'keyword-spacing': ['error', { 'before': true, 'after': true }]
 	}
 };
