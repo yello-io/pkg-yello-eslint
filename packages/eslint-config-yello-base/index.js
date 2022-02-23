@@ -6,7 +6,7 @@ module.exports = {
 		'./rules/import',
 		'./rules/typescript'
 	].map(require.resolve),
-	ignorePatterns: [ 'dist', 'build' ],
+	ignorePatterns: [ 'dist', 'build', '**/*.json' ],
 	env: {
 		browser: true,
 		es6: true,
