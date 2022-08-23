@@ -3,14 +3,14 @@ const pathGroupsDefaults = { 'group': 'internal', 'position': 'after' }
 module.exports = {
 	plugins: ['import'],
 	rules: {
-		'sort-imports': ['error', {
+		'sort-imports': [ 'error', {
 			'ignoreCase': true,
 			'ignoreDeclarationSort': true, // This is handled by import/order instead
 			'ignoreMemberSort': false,
 			'allowSeparatedGroups': true
-		}],
-		'import/newline-after-import': ['error', { 'count': 2 }],
-		'import/no-unused-modules': [1, { 'missingExports': true, 'unusedExports': true }],
+		} ],
+		'import/newline-after-import': [ 'error', { 'count': 2 } ],
+		'import/no-unused-modules': [ 1, { 'src': [ '**/*.ts' ], 'missingExports': true, 'unusedExports': true } ],
 		'import/no-extraneous-dependencies': [
 			'error',
 			{
@@ -24,16 +24,16 @@ module.exports = {
 				]
 			}
 		],
-		'import/order': ['error', {
+		'import/order': [ 'error', {
 			'newlines-between': 'always',
 			'alphabetize': {
 				'order': 'asc',
 				'caseInsensitive': true
 			},
 			'groups': [
-				['builtin', 'external'],
+				[ 'builtin', 'external' ],
 				'internal',
-				['sibling', 'parent', 'unknown', 'index']
+				[ 'sibling', 'parent', 'unknown', 'index' ]
 			],
 			'pathGroups': [
 
@@ -60,13 +60,13 @@ module.exports = {
 				{ 'pattern': '~utils/**', ...pathGroupsDefaults } //! To be removed
 
 			]
-		}]
+		} ]
 	},
 	settings: {
 		'import/resolver': {
 			typescript: {},
 			node: {
-				extensions: ['.ts', '.tsx', '.js', '.jsx']
+				extensions: [ '.ts', '.tsx', '.js', '.jsx' ]
 			}
 		}
 	}
