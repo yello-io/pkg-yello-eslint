@@ -1,7 +1,18 @@
 module.exports = {
 
-	extends: [ './rules/base', './rules/unsorted', './rules/import', './rules/typescript' ].map(require.resolve),
-	ignorePatterns: [ 'dist', 'build', '**/*.json' ],
+	extends: [
+
+		'./rules/base',
+		'./rules/unsorted',
+		'./rules/import',
+		'./rules/typescript'
+
+	].map(require.resolve),
+	ignorePatterns: [
+		'dist',
+		'build',
+		'**/*.json'
+	],
 	env: {
 
 		browser: true,
