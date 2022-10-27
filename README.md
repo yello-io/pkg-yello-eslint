@@ -1,9 +1,7 @@
 
-- [Installation](#installation)
-- [Packages](#packages)
-	- [eslint-config-yello-base](#eslint-config-yello-base)
-	- [eslint-config-yello-react](#eslint-config-yello-react)
-	- [eslint-config-yello-nextjs](#eslint-config-yello-nextjs)
+- [eslint-config-yello-base](#eslint-config-yello-base)
+- [eslint-config-yello-react](#eslint-config-yello-react)
+- [eslint-config-yello-nextjs](#eslint-config-yello-nextjs)
 
 # Installation
 1. To use these packages you need to add the following to `.npmrc`:
@@ -18,7 +16,6 @@
 		"extends": "PACKAGE_NAME"
 	}
 	```
-4. Done :)
 
 # Packages
 
